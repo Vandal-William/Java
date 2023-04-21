@@ -9,6 +9,8 @@
 - Les class sont en pascal case : MaVariable
 - Une variable a toujour un type devant
 
+1.Les nombres
+
 ```java
 int ageUtilisateur = 25;
 ```
@@ -19,6 +21,17 @@ public class MainApp {
         System.out.println(ageUtilisateur);
     }
 }
+```
+
+2.Les chaines de charactère 
+
+```java
+String prenom = "william";
+```
+
+3.Les booleen
+```java
+booleen isMajeur = true;
 ```
 
 ## Les constante 
@@ -34,6 +47,15 @@ public class MainApp {
     public static void main (String[] args){
        final int ONE_NUMBER = 26;
        System.out.println(ONE_NUMBER);
+    }
+}
+```
+```java
+public class MainApp {
+    public static void main (String[] args){
+       final int NUMBER = 26;
+       // concaténer avec +
+       System.out.println("tu as " + NUMBER + " ans");
     }
 }
 ```

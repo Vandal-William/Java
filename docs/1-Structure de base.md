@@ -1,5 +1,11 @@
 # Structure de base
 
+## pour intaller java sur linux :
+
+```shell
+sudo apt-get install default-jdk
+```
+
 ```java
 public class MainApp {
     // class signature obligatoire dans tous programme java 
