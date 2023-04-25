@@ -1,9 +1,9 @@
 import java.awt.FlowLayout;
 import javax.swing.JButton;
-import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.JCheckBox;
 
 public class MyWindow extends JFrame{ 
     public MyWindow(){
@@ -13,9 +13,12 @@ public class MyWindow extends JFrame{
         this.setLocationRelativeTo(null);
         JPanel contentPane = (JPanel) this.getContentPane();
         contentPane.setLayout(new FlowLayout(FlowLayout.LEFT));
+    
         contentPane.add(new JButton("click me !"));
         contentPane.add(new JButton("push me !!!"));
+
         contentPane.add(new JCheckBox("check me"));
+ 
         contentPane.add(new JTextField("edit me"));
     }
     public static void main(String[] args){
